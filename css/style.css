@@ -1,3 +1,26 @@
 body {
     background-color: tan;
+    font-family: "", sans-serif;
+    
+}
+header{color:white}
+nav ul {    background-color: black;
+    border-style: solid;
+    border-color: rgba(238, 236, 229, 0.469);
+    border-width: 2px;
+    padding: 10px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.topDivider {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #F5FFFA;
+    padding-bottom: 10px;
   }
+
