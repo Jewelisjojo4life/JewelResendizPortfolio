@@ -133,8 +133,8 @@ footer {
   padding: 80px;
   box-sizing: border-box;
   left: 50%;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin: -150px;
   float: left;
   perspective: 800px;
@@ -174,15 +174,37 @@ footer {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgb(55, 18, 18);
+  background: rgb(137, 119, 119);
   line-height: 30px;
-  color: #03446a;
   text-align: center;
   font-size: 25px;
   border-radius: 5px;
   backface-visibility: hidden;
 }
 
+.front .card2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(55, 18, 18);
+  line-height: 30px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.front .card3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(55, 18, 18);
+  line-height: 30px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
 .back {
   background-color: black;
   color: white;
